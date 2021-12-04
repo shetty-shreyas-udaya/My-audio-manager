@@ -1,0 +1,62 @@
+body {
+    background-image: url('./compo/back-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  form{
+    margin-left: 330px;
+    margin-right :730px;
+    margin-top: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+  box-shadow: 7px 7px 10px black, -7px -7px 10px black;
+  }
+  button {
+    background: rgb(250, 81, 14);
+    color: black;
+    border: 2px;
+    margin: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    outline: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-out;
+  }
+  
+  button:hover {
+    background: #d63d05;
+    transform: scale(1.5);
+  }
+  
+  .playlist {
+    text-align: left;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .playlist-item {
+    color: #444;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    padding: 1em;
+  }
+  
+  .playlist-item.selected {
+    font-weight: bold;
+  }
+  
+  .playlist-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls {
+    text-align: left;
+    padding: 1em;
+  }
+  
