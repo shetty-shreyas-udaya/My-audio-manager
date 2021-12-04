@@ -1,3 +1,16 @@
+MY AUDIO MANAGER 
+ hello guys , so this is the App which was developed by me and i m here to give you guys a little berief about this "React APP"
+   
+   This App consist of several components like :
+       1. Home
+       2. HomePage
+       3. PlayList
+       4. Toggler
+       5. Waveform
+       
+Mainly i would like to tell you guys is about waveform components which is the main key here this one components do the main part of the app which will create a waveform from the audio form given to it , by defaault i have already putted two songs which will tell you excatly what is going on and i m providing several button for the user to volume up/down , zoom in/out , user/admin to give you some special previlages . 
+      
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
